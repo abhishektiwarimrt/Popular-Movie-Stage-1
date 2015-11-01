@@ -13,5 +13,5 @@
     <string name="title_activity_detail">Movie Detail</string>
     <string name="label_release_date">Release Date:</string>
     <string name="api_poster_default_size">w154</string>
-    <string name="api_key">bf612c2141616aba8f64f4fd63017428</string>
+    <string name="api_key">{API_KEY}</string>
 </resources>
