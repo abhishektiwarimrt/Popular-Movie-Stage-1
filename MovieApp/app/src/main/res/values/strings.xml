@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Popular Movie App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading" translated="false">Loading Please Wait...</string>
+    <string name="sorting_label_popular" translated="false">Most Popular</string>
+    <string name="preference_sorting_key" translated="false">sorting</string>
+    <string name="preference_sorting_label" translated="false">Sort Order</string>
+    <string name="sorting_label_rating" translated="false">Highest Rated</string>
+    <string name="sorting_value_popular" translated="false">popular</string>
+    <string name="sorting_value_rating" translated="false">top_rated</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_detail">Movie Detail</string>
+    <string name="label_release_date">Release Date:</string>
+    <string name="api_poster_default_size">w154</string>
+    <string name="api_key">bf612c2141616aba8f64f4fd63017428</string>
+</resources>

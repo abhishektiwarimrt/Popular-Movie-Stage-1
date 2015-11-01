@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/dp4"
+    android:paddingBottom="@dimen/dp4"
+    tools:context=".MainActivityFragment">
+
+    <TextView
+        android:id="@+id/textview_loading"
+        android:text="@string/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:background="@android:color/holo_green_light"
+        android:enabled="true"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+
+    <GridView
+        android:id="@+id/gridview_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:textAlignment="center"
+        tools:context=".MainActivityFragment"
+        android:columnWidth="@dimen/dp162"
+        android:verticalSpacing="@dimen/dp4"
+        android:stretchMode="spacingWidthUniform"/>
+
+</RelativeLayout>
